@@ -34,7 +34,7 @@ form {
 
 <h1> Send me a message
 
-<form action='//localhost:3000/index.php' method="post">
+<form action='./index.php' method="post">
 
 
 <label for="name">Name:</label>
