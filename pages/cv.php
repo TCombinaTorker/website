@@ -66,41 +66,56 @@ progress {
 
 <div class="skill">
 <label for="cv"> Haskell:</label>
-<progress class="cv" value="80" max="100"></progress>
+<progress class="cv" value="70" max="100"></progress>
+</div>
+
+<div class="skill">
+<label for="cv"> ProLog:</label>
+<progress class="cv" value="60" max="100"></progress>
 </div>
 
 <div class="skill">
 <label for="cv"> Git & GitHub:</label>
-<progress class="cv" value="100" max="100"></progress>
+<progress class="cv" value="50" max="100"></progress>
 </div>
 
 <div class="skill">
-<label for="cv"> PHP:</label>
+<label for="cv"> LaTeX:</label>
+<progress class="cv" value="60" max="100"></progress>
+</div>
+
+<div class="skill">
+<label for="cv"> Information Retrieval:</label>
 <progress class="cv" value="60" max="100"></progress>
 </div>
 
 <div class="skill">
 <label for="cv"> Python:</label>
-<progress class="cv" value="80" max="100"></progress>
-</div>
-
-<div class="skill">
-<label for="cv"> HTML/CSS:</label>
-<progress class="cv" value="80" max="100"></progress>
-</div>
-
-<div class="skill">
-<label for="cv"> Javascript:</label>
-<progress class="cv" value="50" max="100"></progress>
-</div>
-
-<div class="skill">
-<label for="cv"> Nodejs:</label>
 <progress class="cv" value="60" max="100"></progress>
 </div>
 
 <div class="skill">
-<label for="cv"> Java:</label>
+<label for="cv"> NLP:</label>
+<progress class="cv" value="90" max="100"></progress>
+</div>
+
+<div class="skill">
+<label for="cv"> Algebra:</label>
+<progress class="cv" value="60" max="100"></progress>
+</div>
+
+<div class="skill">
+<label for="cv"> Machine Learning:</label>
+<progress class="cv" value="60" max="100"></progress>
+</div>
+
+<div class="skill">
+<label for="cv"> Linear Algebra:</label>
+<progress class="cv" value="80" max="100"></progress>
+</div>
+
+<div class="skill">
+<label for="cv"> Analysis:</label>
 <progress class="cv" value="70" max="100"></progress>
 </div>
 
