@@ -81,7 +81,7 @@ progress {
 
 <div class="skill">
 <label for="cv"> LaTeX:</label>
-<progress class="cv" value="60" max="100"></progress>
+<progress class="cv" value="80" max="100"></progress>
 </div>
 
 <div class="skill">
@@ -122,27 +122,6 @@ progress {
 
 <!-- ------------   Right div   ------------------->
 
-
-
-<div class="skill">
-<label for="cv"> LaTeX:</label>
-<progress class="cv" value="100" max="100"></progress>
-</div>
-
-<div class="skill">
-<label for="cv"> Unity:</label>
-<progress class="cv" value="80" max="100"></progress>
-</div>
-
-<div class="skill">
-<label for="cv"> Analysis 1&2:</label>
-<progress class="cv" value="80" max="100"></progress>
-</div>
-
-<div class="skill">
-<label for="cv"> (Linear) Algebra 1&2:</label>
-<progress class="cv" value="100" max="100"></progress>
-</div>
 
 <div class="skill">
 <label for="cv"> Cryptography:</label>
