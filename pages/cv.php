@@ -56,7 +56,7 @@ progress {
 
 </style>
 <div class="topnav">
-<a id="cvlink" download="cv" href="/../than.pdf"> Download </a>
+<a id="cvlink" download="cv" href="../cv.pdf"> Download </a>
 </div>
 
 
