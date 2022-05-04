@@ -34,7 +34,7 @@ form {
 
 <h1> Send me a message
 
-<form action='./index.php' method="post">
+<form method="post">
 
 
 <label for="name">Name:</label>
