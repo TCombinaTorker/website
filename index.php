@@ -19,8 +19,14 @@
       $subject    = $_POST['subject'];  //message from client
 
 
-    if ($page == "home" || $page == "") {                //homepage
+    if ($page == "home" || $page == "") 
+    {                //homepage
             $page = "pages/home.php"; 
+    }elseif ($m != "") {
+            $page = "pages/message.php";
+            $message = fopen("messages/" . $name . date("Y-m-d h:i:sa") . ".txt", "w") or die("Unable to open file!");;
+            fwrite($message, "Name:" . $name . "\nSubject:" . $subject . "\nE-Mail:" . $mail . "\nDate:" . date("d-m-y:l") . date("h:i:sa") . "\n \n Message:" . $m);
+            fclose($message);
     }elseif ($page == 'subjects'){        //subjects
             $page = "pages/subjects.php";
     }elseif ($page == 'cv'){              //cv
@@ -39,11 +45,6 @@
             $page  = "pages/subjects/crypt/" . $pageNum . ".php";
     }elseif ($page == 'math'){           //   subjects/math
         $page  = "pages/subjects/math/" . $pageNum . ".php";
-    }elseif ($m != "") {
-            $page = "pages/message.php";
-            $message = fopen("messages/" . $name . date("Y-m-d h:i:sa") . ".txt", "w") or die("Unable to open file!");;
-            fwrite($message, "Name:" . $name . "\nSubject:" . $subject . "\nE-Mail:" . $mail . "\nDate:" . date("d-m-y:l") . date("h:i:sa") . "\n Message:" . $m);
-            fclose($message);
     }else {
             $page = "pages/error.php";
         }
